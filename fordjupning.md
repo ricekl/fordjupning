@@ -1,7 +1,5 @@
 # Fördjupning mot VG krav
 
-Hoppas
-
 ## Moment A: Avancerad Nätverksanalys &; Trafikflöden (Mål 3)
 
 ![Bild med datatrafikflöde](dataflow.png)
