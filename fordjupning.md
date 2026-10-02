@@ -9,4 +9,4 @@ Den visar hur käll- och destinations IP-adresser ändras när man kommer till �
 Den visar hur man använder olika (logiska) portar för att använda olika tjänster (53 för DNS, 80 för HTTP och 443 för HTTPS)
 
 Bilden visar däremot inte MAC-adresser. MAC-adresser är adresser till specifika nätverks-interfaces. En dator brukar bara ha en, men en router kan ha många.<br>
-När man skickar information i ett nätverk så är använder man destinations-MAC-adressen som next-hop address; den ändras för varje interface som den åker emellan, till skillnad til IP-adresser som alltid är samma tills informationen ska till ett annat håll.
+När man skickar information i ett nätverk så använder man destinations-MAC-adressen som next-hop address; den ändras för varje interface som den åker emellan, till skillnad til IP-adresser som alltid är samma tills informationen ska till ett annat håll.
