@@ -17,6 +17,6 @@ När man skickar information i ett nätverk så använder man destinations-MAC-a
 
 ### TCP/IP modellen
 
-MAC-adresser ligger på Länk-lagret (eller Network Access-lagret) på TCP/IP modellen
-IP-adresser ligger på Internet-lagret på TCP/IP modellen
-Port nummer ligger på Transport-lagret på TCP/IP modellen
+MAC-adresser ligger på Länk-lagret (eller Network Access-lagret) på TCP/IP modellen<br>
+IP-adresser ligger på Internet-lagret på TCP/IP modellen<br>
+Port nummer ligger på Transport-lagret på TCP/IP modellen<br>
