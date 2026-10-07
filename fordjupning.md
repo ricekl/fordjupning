@@ -2,7 +2,7 @@
 
 ## Moment A: Avancerad Nätverksanalys & Trafikflöden (Mål 3)
 
-![Bild med datatrafikflöde](dataflow.png)
+![Bild med datatrafikflöde](images/dataflow.png)
 
 ### Bild förklaring
 
@@ -58,4 +58,5 @@ Projekt/Ledning
 
 ```sudo mkdir Projekt/Ledning```
 
-```sudo``` används för att root användaren ska äga mapparna. ````mkdir``` skapar mappar. ```-p``` gör ```mkdir``` rukursivt; mappen Projekt skapas om den inte finns.
+```sudo``` används för att root användaren ska äga mapparna i början. ````mkdir``` skapar mappar. ```-p``` gör ```mkdir``` rukursivt; mappen Projekt skapas om den inte finns.
+
