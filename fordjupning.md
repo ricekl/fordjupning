@@ -28,15 +28,22 @@ Port nummer ligger på Transport-lagret på TCP/IP modellen
 Skapa följande konto-struktur:<br>
 <br>
 **Grupper:**<br>
-g_ledare (För chefer/ledare<br>
-```sudo groupadd g_ledare```<br>
-g_personal (För övrig personal)<br>
-```sudo groupadd g_personal```<br>
+g_ledare (För chefer/ledare
+
+```sudo groupadd g_ledare```
+
+g_personal (För övrig personal)
+
+```sudo groupadd g_personal```
+
 Kommandorna förklarar sig själva. ```sudo``` behövs för att man måste ha admin-rättigheter för att lägga till grupper.<br>
 <br>
 **Användare:**<br>
 alice (Medlem i g_ledare)<br>
-```sudo useradd -g g_ledare -s /bin/bash alice```<br>
-bob (Medlem i g_personal)<br>
-```sudo useradd -g g_personal -s /bin/bash bob```<br>
+```sudo useradd -g g_ledare -s /bin/bash alice```
+
+bob (Medlem i g_personal)
+
+```sudo useradd -g g_personal -s /bin/bash bob```
+
 ```-g``` flaggan lägger den nya användaren i en grupp som man specifierar. ```-s``` väljer vilket shell den nya användaren ska logga in med, bash är en bra standard.<br>
