@@ -52,4 +52,10 @@ bob (Medlem i g_personal)
 <br>
 Skapa en huvudmapp som heter Projekt med två undermappar:<br>
 Projekt/Gemensamt<br>
-Projekt/Ledning<br>
+Projekt/Ledning
+
+```sudo mkdir -p Projekt/Gemensamt```
+
+```sudo mkdir Projekt/Ledning```
+
+```sudo``` används för att root användaren ska äga mapparna. ````mkdir``` skapar mappar. ```-p``` gör ```mkdir``` rukursivt; mappen Projekt skapas om den inte finns.
