@@ -41,11 +41,11 @@ Kommandorna förklarar sig själva. ```sudo``` behövs för att man måste ha ad
 **Användare:**<br>
 alice (Medlem i g_ledare)
 
-```sudo useradd -g g_ledare -s /bin/bash alice```
+```sudo useradd -g g_ledare -m -s /bin/bash alice```
 
 bob (Medlem i g_personal)
 
-```sudo useradd -g g_personal -s /bin/bash bob```
+```sudo useradd -g g_personal -m -s /bin/bash bob```
 
 ```-g``` flaggan lägger den nya användaren i en grupp som man specifierar. ```-s``` väljer vilket shell den nya användaren ska logga in med, bash är en bra standard.<br>
 <br>
