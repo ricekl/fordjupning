@@ -19,4 +19,18 @@ När man skickar information i ett nätverk så använder man destinations-MAC-a
 
 MAC-adresser ligger på Länk-lagret (eller Network Access-lagret) på TCP/IP modellen<br>
 IP-adresser ligger på Internet-lagret på TCP/IP modellen<br>
-Port nummer ligger på Transport-lagret på TCP/IP modellen<br>
+Port nummer ligger på Transport-lagret på TCP/IP modellen
+
+## Moment B: Jämförande OS- och Behörighetsanalys (Mål 2)
+
+### Linux
+
+Skapa följande konto-struktur:<br>
+<br>
+**Grupper:**<br>
+g_ledare (För chefer/ledare<br>
+g_personal (För övrig personal)<br>
+<br>
+**Användare:**<br>
+alice (Medlem i g_ledare)<br>
+bob (Medlem i g_personal)<br>
