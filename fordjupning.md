@@ -60,3 +60,24 @@ Projekt/Ledning
 
 ```sudo``` används för att root användaren ska äga mapparna i början. ````mkdir``` skapar mappar. ```-p``` gör ```mkdir``` rukursivt; mappen Projekt skapas om den inte finns.
 
+![Behörigheter till mappar](images/behörigheter.png)
+
+För att sätta de rätta behörigheterna använder man de här kommandorna:
+
+```sudo chmod 777 Projekt/Gemensamt```
+
+Detta gör att alla får behörigheter för att läsa, skriva och exekvera (man måste kunna exekvera för att öppna en mapp i Linux)
+
+```sudo chgrp g_ledare Projekt/Ledning```
+
+Detta kommando sätter gruppen g_ledare till ägare av mappen Projekt/Ledning.
+
+```sudo chmod 770 Projekt/Ledning```
+
+Detta gör att endast användar-ägaren och de i ägar-gruppen har tillgång till mappen och kan läsa, skriva och exekvera. Alla andra har noll rättigheter.
+
+```sudo -u alice umask 000```
+
+```sudo -u bob umask 000```
+
+Dessa två kommandon gör att filer användarna skapar får 666 behörigheter istället för 644 som vanligt. Utan det så kan alice inte ändra på filer som är skapade av bob, och tvärt emot. bob kan fortfarande inte komma åt filer i mappen Projekt/Ledning.
